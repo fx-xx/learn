@@ -1,9 +1,3 @@
-# node-lesson2
-
-# 1.复习
-## 反馈
-系统全局变量有什么用还不是很清楚。
-讲的有些快有些跟不上
 
 ## 1.1 概念
 - Node.js与JavaScript的关系?
@@ -284,26 +278,6 @@ fs.readFile(file, [options], callback)
 # 其它
 
 - vsc教程[http://i5ting.github.io/vsc/](vsc教程)
-
-
-#作业
-2.npm 和package.json结合着连
-npm init    初始化package.json
-npm install   先配置package.json里的devDependencies dependencies字段
-npm i -S +包名 npm install –save  不光能下载包，还能把依赖添加到package.json
-npm i -D +包名 npm install –save-dev 不光能下载包，还能把依赖添加到package.json
-npm docs 包名  查看包的相关文件 jquery、mongoose、http-poster
-npm list 当前目录有什么包，检测node_modules里面有什么
-npm install –g 包名  全局安装 cnpm、nrm
-3.cnpm
-4.nrm 
-安装目录npm install -g nrm
-nrm ls 查看数据源
-nrm test 测试你的网连那个npm的数据源快
-nrm use 切换数据源
-5.阅读参考文献 朴灵 require
-阅读参考文献 package.json全字段解析
-6.github自己玩玩
 
 
 
